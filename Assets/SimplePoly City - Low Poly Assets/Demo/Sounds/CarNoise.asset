@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0b94336ca139ee469192b8524095a78, type: 3}
   m_Name: CarNoise
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
-  id: 
-  clip: {fileID: 0}
-  volume: 1
+  id: Noise
+  clip: {fileID: 8300000, guid: 1a452d896f1ee0643b7382a4631078e2, type: 3}
+  volume: 9000000
   loop: 0
-  spatialBlend: 0
+  spatialBlend: 1

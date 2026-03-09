@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   id: Wind
   clip: {fileID: 8300000, guid: 63e31f1f4b71ab443bf60d8c694646f3, type: 3}
-  volume: 12000
+  volume: 0.01
   loop: 0
   spatialBlend: 1
