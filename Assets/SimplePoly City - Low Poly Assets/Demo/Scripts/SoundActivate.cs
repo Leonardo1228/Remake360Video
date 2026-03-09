@@ -11,14 +11,19 @@ public class Activarsonido : MonoBehaviour
         if (other.tag == "Act")
         {
             AudioManager.Instance.Play3D("Sound", post.transform.position);
+            AudioManager.Instance.Play3D("Wind", post1.transform.position);
             //AudioManager.Instance.Play2D("");
         }
     }
+
+
+
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Act")
         {
             AudioManager.Instance.Play3D("Wind", post1.transform.position);
+            AudioManager.Instance.Play3D("Noise", post.transform.position);
             //AudioManager.Instance.Play2D("Salir");
         }
     }

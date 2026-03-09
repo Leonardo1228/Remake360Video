@@ -12,13 +12,13 @@ public class ActivarCanvas : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other){
-        if(other.tag == ""){
+        if(other.tag == "Player"){
             TextCanvas.SetActive(true);
 
         }
     }
     private void OnTriggerExit(Collider other){
-        if(other.tag == ""){
+        if(other.tag == "Player"){
             TextCanvas.SetActive(false);
         }
     }
